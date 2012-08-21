@@ -1,0 +1,4 @@
+_welcome:
+    pattern:  /
+    defaults: { _controller: OBBSiteBundle:Page:index }
+

@@ -1,0 +1,53 @@
+{
+    "hash": "58415c90595a2bd8211df972ef5f4a7f",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.3.x-dev",
+            "source-reference": "2ec4bc6db13db6a0976a16b71058083c55cbcdbd",
+            "commit-date": "1343847076"
+        },
+        {
+            "package": "monolog/monolog",
+            "version": "1.2.0"
+        },
+        {
+            "package": "symfony/monolog-bundle",
+            "version": "dev-master",
+            "source-reference": "10c3d6fcda8d73eb1a35860eeea2933d1ab2c1f6",
+            "commit-date": "1345557954"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "source-reference": "7a233bc7a6f1a34150a358d223b12c76c1ed1674",
+            "commit-date": "1345572885"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.9.x-dev",
+            "alias-version": "1.9.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "552143062982fd15a1d6fe5a0cdda1f007212154",
+            "commit-date": "1345489844"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symfony/monolog-bundle": 20
+    }
+}
