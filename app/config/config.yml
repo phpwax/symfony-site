@@ -16,3 +16,8 @@ framework:
     trust_proxy_headers: false # Whether or not the Request object should trust proxy headers (X_FORWARDED_FOR/HTTP_CLIENT_IP)
     session:         ~
 
+services:
+    kernel.listener.onRequest:
+        class: OBB\SiteBundle\Listener\RequestListener
+        tags:                                                                      
+          - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
