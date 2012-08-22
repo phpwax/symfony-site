@@ -1,4 +1,7 @@
-_welcome:
-    pattern:  /
-    defaults: { _controller: OBBSiteBundle:Page:index }
+default_index:
+  pattern:   /
+  defaults: { _controller: OBBSiteBundle:Page:index }
 
+default:
+  pattern:  /{_action}
+  defaults: { _controller: OBBSiteBundle:Page:index }

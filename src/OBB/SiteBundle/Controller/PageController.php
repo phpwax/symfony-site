@@ -14,6 +14,10 @@ class PageController extends Controller {
       $name ="test";
       return $this->render('OBBSiteBundle:Page:index.html.php', array('name' => $name));
     }
+    
+    public function testAction() {
+      return true;
+    }
 
 
 }
