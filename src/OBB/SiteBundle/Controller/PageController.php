@@ -18,6 +18,7 @@ class PageController extends Controller {
     public function test() {
       return $this->render('OBBSiteBundle:Page:test.html.php');
     }
+    
 
 
 }
