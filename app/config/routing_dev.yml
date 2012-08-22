@@ -1,7 +1,12 @@
 default_index:
   pattern:   /
   defaults: { _controller: OBBSiteBundle:Page:index }
+  
 
 default:
   pattern:  /{_action}/{id}
   defaults: { _controller: OBBSiteBundle:Page:index, _action:index, id:false }
+
+default_action:
+  pattern:  /{_action}/
+  defaults: { _controller: OBBSiteBundle:Page:index, _action:index }

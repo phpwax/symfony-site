@@ -9,8 +9,9 @@ class RequestListener {
   public function onKernelRequest($event) {
     $request = $event->getRequest();
     $default_controller = $request->attributes->get("_controller");
-    $action = $request->attributes->get("_action");
-
+    $action = $request->attributes->get("_action");  
+    if(!$action) return TRUE;  
+    
     $raw_controller = substr($default_controller, 0, (strrpos($default_controller, ":")+1));
     $mapped_controller = $raw_controller.$action;
     $request->attributes->set("_controller", $mapped_controller);
